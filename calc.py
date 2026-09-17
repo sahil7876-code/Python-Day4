@@ -8,17 +8,17 @@ match ch:
     case 1:
         def add(a,b):
             return(a+b)
-        print(add)
+        print(add(a,b))
 
     case 2:
         def sub(a,b):
             return(a-b)
-        print(sub)
+        print(sub(a,b))
 
     case 3:
         def div(a,b):
             return(a/b)
-        print(div)
+        print(div(a,b))
 
     case 4:
         def mul(a,b):
